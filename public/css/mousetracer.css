@@ -1,0 +1,31 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  padding-top: 50px;
+}
+
+#contents {
+  height: 90%;
+  padding-top: 40px;
+}
+
+#contents > .row {
+  height: 100%;
+}
+
+#contents > .row > ul {
+  max-height: 100%;
+  overflow: scroll;
+  z-index: 100;
+}
+
+#svg {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
